@@ -41,12 +41,19 @@ int main(){
         iterador++;
     }while(iterador < 10);
     */
-    /*
+    
     ejemplo = "Salu2";
     int ultimaPos =ejemplo.length();
-    cout<<"letra en la ultima pos: "<< ejemplo.at(ultimaPos-1)<<endl;
+    /*cout<<"letra en la ultima pos: "<< ejemplo.at(ultimaPos-1)<<endl;
     cout<<ejemplo.at(4)<<endl;
     cout<<ejemplo[0]<<endl;
 */
+//cout<<ultimaPos<<endl;
+//cout<<ejemplo.at(0)<<endl;
+//cout<<ejemplo[0]<<endl;
+
+cout<<ejemplo.at(ultimaPos-1)<<endl;
+cout<<ejemplo[ultimaPos-1]<<endl;
+
     return 0;
 }

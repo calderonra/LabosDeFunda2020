@@ -18,11 +18,18 @@ int main(){
         cout<<"Digite la cantidad de dinero a ingresar: "<<endl;
         cin>>dinero;
         saldoActual=saldoinicial+dinero;
-        cout<<"Dinero en la cuenta: "<<dinero<<endl;
+        cout<<"Dinero en la cuenta: "<<saldoActual<<endl;
 
-    }else if (opcion==2) {
+    } else if (opcion==2) {
         cout<<"Cantidad de dinero a retirar: "<<endl;
         cin>>dinero;
+        if(saldoinicial<dinero){
+            cout<<"Fondos insuficientes :c "<<endl;
+
+        }else{
+            saldoActual=saldoinicial-dinero;
+            cout<<"En la cuenta te quedan "<<saldoActual<<endl;
+        }
         //comprobacion de saldo en la cuenta
 
         

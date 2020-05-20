@@ -5,13 +5,14 @@ int main(){
 
 //Utilizacion del while
     int numero=0;
-    cout<<"ingresa un numero: "<<endl;
-    cin>>numero;
-    while(numero<=100){
-        cout<<"ingrese un numero: "<<endl;
-        cin>>numero;
-    }
+  
 
+    while(numero<100){
+        cout<<"El numero es "<<numero<<endl;
+        numero++;
+
+    }
+cout<<"Sali del while y el numero es: "<<numero<<endl;
 
 
     return 0;
