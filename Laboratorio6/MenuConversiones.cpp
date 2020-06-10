@@ -42,6 +42,7 @@ int opcion=0;
             break;
             case 2: celciusAfaren();
             break;
+            default: cout<<"ingrese una opcion valida"<<endl;
         }
 
     }while (opcion!=3);    
