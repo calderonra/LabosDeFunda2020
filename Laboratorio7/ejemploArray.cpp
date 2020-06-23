@@ -23,7 +23,7 @@ cout<<"El tamano es: "<<tamano<<endl;
     for(int i=0;i<tamano;i++){
         cout<<"el caracter es: "<<miArreglo[i]<<endl;
     }
-
+    
 
     return 0;
 }
